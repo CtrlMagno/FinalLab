@@ -15,12 +15,11 @@ Una aplicación web moderna para compartir imágenes construida con TypeScript y
 - Web Components
 - HTML5
 - CSS3
-- Vite (como bundler y servidor de desarrollo)
 
 ## 📋 Prerrequisitos
 
 - Node.js (versión 16 o superior)
-- npm o yarn
+- npm
 
 ## 🔧 Instalación
 
@@ -32,15 +31,16 @@ git clone [URL_DEL_REPOSITORIO]
 2. Instala las dependencias:
 ```bash
 npm install
-# o
-yarn install
 ```
 
-3. Inicia el servidor de desarrollo:
+3. Compila el proyecto:
 ```bash
-npm run dev
-# o
-yarn dev
+npm run build
+```
+
+4. Inicia el servidor:
+```bash
+npm start
 ```
 
 ## 🏗️ Estructura del Proyecto
